@@ -1,6 +1,7 @@
 FROM debian:jessie
 MAINTAINER Jesse Rosenberger
 
+ENV METEOR_NO_RELEASE_CHECK true
 ENV METEORD_DIR /opt/meteord
 COPY scripts $METEORD_DIR
 
